@@ -29,7 +29,7 @@
 						case 'add':			
 								$query = "INSERT INTO tblclient
 								(client_id,fname,mname, lname, email,contact,sex,birthday,citizenship,address,membership_fee,view_status,created_at,modified_at)
-								VALUES ('Null','".$fname."','".$mname."','".$lname."','".$email."','"$contct"','".$sex."','".$birthday."','".$citizenship."','".$address."','".$membership."','".$status."','".$create."','".$modified."')";
+								VALUES ('Null','".$fname."','".$mname."','".$lname."','".$email."','".$contct."','".$sex."','".$birthday."','".$citizenship."','".$address."','".$membership."','".$status."','".$create."','".$modified."')";
 								mysqli_query($db,$query)or die ('Error in updating Database');
 							
 						break;
